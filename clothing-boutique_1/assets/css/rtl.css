@@ -1,0 +1,2 @@
+/* RTL support: add dir="rtl" to html element */
+html[dir="rtl"] body{text-align:right}html[dir="rtl"] .navbar-nav{padding-right:0}html[dir="rtl"] .nav-link::after{left:auto;right:8px}html[dir="rtl"] .me-2{margin-left:.5rem!important;margin-right:0!important}html[dir="rtl"] .ms-auto{margin-right:auto!important;margin-left:0!important}html[dir="rtl"] .footer a:hover{transform:translateX(-4px)}html[dir="rtl"] .social-icons a{margin-left:8px;margin-right:0}html[dir="rtl"] .swatch{margin-left:8px;margin-right:0}html[dir="rtl"] .text-md-end{text-align:left!important}

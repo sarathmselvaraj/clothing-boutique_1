@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Collections | Rose & Thread Boutique</title>
+    <meta name="description"
+        content="Browse nine boutique products with category, size, color, and price filters for women, men, kids, and fashion accessories.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/dark-mode.css" rel="stylesheet">
+    <link href="../assets/css/rtl.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" aria-label="Main navigation">
+        <div class="container"><a class="navbar-brand" href="index.html">Rose & Thread</a><button class="navbar-toggler"
+                type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav"
+                aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="collections.html">Collections</a></li>
+                    <li class="nav-item"><a class="nav-link" href="lookbook.html">Lookbook</a></li>
+                    <li class="nav-item"><a class="nav-link" href="size-guide.html">Size Guide</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <div class="d-flex gap-2 ms-lg-3">
+               <button class="nav-icon-btn" data-theme-toggle aria-label="Toggle dark mode">
+               <i class="fa-regular fa-moon"></i>
+                <a class="nav-icon-btn cart-icon" href="#" aria-label="Cart">
+                    <i class="fa-solid fa-bag-shopping"></i><span id="cartCount">0</span>
+                </a>
+</div>
+</button></div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="breadcrumb-section">
+            <div class="container"><span class="eyebrow">Rose & Thread</span>
+                <h1>Collections</h1>
+                <p class="lead text-muted-custom">Filter boutique products by category, size, color, and price.</p>
+            </div>
+        </section>
+        <section class="section-padding">
+            <div class="container">
+                <form class="filter-bar row g-3 mb-5">
+                    <div class="col-md-3"><select class="form-select" aria-label="Filter category">
+                            <option>Category</option>
+                            <option>Women</option>
+                            <option>Men</option>
+                            <option>Kids</option>
+                        </select></div>
+                    <div class="col-md-3"><select class="form-select" aria-label="Filter size">
+                            <option>Size</option>
+                            <option>XS</option>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                            <option>XL</option>
+                        </select></div>
+                    <div class="col-md-3"><select class="form-select" aria-label="Filter color">
+                            <option>Color</option>
+                            <option>Black</option>
+                            <option>Blush</option>
+                            <option>Beige</option>
+                        </select></div>
+                    <div class="col-md-3"><select class="form-select" aria-label="Filter price">
+                            <option>Price</option>
+                            <option>Below ₹1500</option>
+                            <option>₹1500 - ₹3000</option>
+                        </select></div>
+                </form>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <article class="product-card">
+                            <div class="image-wrap"><img src="../assets/images/collection-dress.webp"
+                                    alt="Pleated Midi Dress fashion product"></div>
+                            <div class="product-body"><span class="category-pill">Women</span>
+                                <h3>Pleated Midi Dress</h3>
+                                <p class="price">₹2,299</p><a class="btn-boutique" href="product-details.html">View
+                                    Product</a>
+                            </div>
+                        </article>
+                        <p class="px-4 pb-3 mb-0 text-muted-custom">Sizes: XS S M L XL</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="product-card">
+                            <div class="image-wrap"><img src="../assets/images/collection-shirt.webp"
+                                    alt="Oxford Cotton Shirt fashion product"></div>
+                            <div class="product-body"><span class="category-pill">Men</span>
+                                <h3>Oxford Cotton Shirt</h3>
+                                <p class="price">₹1,499</p><a class="btn-boutique" href="product-details.html">View
+                                    Product</a>
+                            </div>
+                        </article>
+                        <p class="px-4 pb-3 mb-0 text-muted-custom">Sizes: XS S M L XL</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="product-card">
+                            <div class="image-wrap"><img src="../assets/images/collection-jacket.webp"
+                                    alt="Cropped Jacket fashion product"></div>
+                            <div class="product-body"><span class="category-pill">Women</span>
+                                <h3>Cropped Jacket</h3>
+                                <p class="price">₹2,899</p><a class="btn-boutique" href="product-details.html">View
+                                    Product</a>
+                            </div>
+                        </article>
+                        <p class="px-4 pb-3 mb-0 text-muted-custom">Sizes: XS S M L XL</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="product-card">
+                            <div class="image-wrap"><img src="../assets/images/collection-skirt.webp"
+                                    alt="Blush Satin Skirt fashion product"></div>
+                            <div class="product-body"><span class="category-pill">Women</span>
+                                <h3>Blush Satin Skirt</h3>
+                                <p class="price">₹1,799</p><a class="btn-boutique" href="product-details.html">View
+                                    Product</a>
+                            </div>
+                        </article>
+                        <p class="px-4 pb-3 mb-0 text-muted-custom">Sizes: XS S M L XL</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="product-card">
+                            <div class="image-wrap"><img src="../assets/images/collection-blouse.webp"
+                                    alt="Pearl Button Blouse fashion product"></div>
+                            <div class="product-body"><span class="category-pill">Women</span>
+                                <h3>Pearl Button Blouse</h3>
+                                <p class="price">₹1,599</p><a class="btn-boutique" href="product-details.html">View
+                                    Product</a>
+                            </div>
+                        </article>
+                        <p class="px-4 pb-3 mb-0 text-muted-custom">Sizes: XS S M L XL</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="product-card">
+                            <div class="image-wrap"><img src="../assets/images/collection-kids.webp"
+                                    alt="Kids Linen Set fashion product"></div>
+                            <div class="product-body"><span class="category-pill">Kids</span>
+                                <h3>Kids Linen Set</h3>
+                                <p class="price">₹1,199</p><a class="btn-boutique" href="product-details.html">View
+                                    Product</a>
+                            </div>
+                        </article>
+                        <p class="px-4 pb-3 mb-0 text-muted-custom">Sizes: XS S M L XL</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="product-card">
+                            <div class="image-wrap"><img src="../assets/images/collection-bag.webp"
+                                    alt="Structured Mini Bag fashion product"></div>
+                            <div class="product-body"><span class="category-pill">Accessories</span>
+                                <h3>Structured Mini Bag</h3>
+                                <p class="price">₹999</p><a class="btn-boutique" href="product-details.html">View
+                                    Product</a>
+                            </div>
+                        </article>
+                        <p class="px-4 pb-3 mb-0 text-muted-custom">Sizes: XS S M L XL</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="product-card">
+                            <div class="image-wrap"><img src="../assets/images/collection-coat.webp"
+                                    alt="Longline Coat fashion product"></div>
+                            <div class="product-body"><span class="category-pill">Men</span>
+                                <h3>Longline Coat</h3>
+                                <p class="price">₹3,299</p><a class="btn-boutique" href="product-details.html">View
+                                    Product</a>
+                            </div>
+                        </article>
+                        <p class="px-4 pb-3 mb-0 text-muted-custom">Sizes: XS S M L XL</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="product-card">
+                            <div class="image-wrap"><img src="../assets/images/collection-scarf.webp"
+                                    alt="Printed Silk Scarf fashion product"></div>
+                            <div class="product-body"><span class="category-pill">Accessories</span>
+                                <h3>Printed Silk Scarf</h3>
+                                <p class="price">₹799</p><a class="btn-boutique" href="product-details.html">View
+                                    Product</a>
+                            </div>
+                        </article>
+                        <p class="px-4 pb-3 mb-0 text-muted-custom">Sizes: XS S M L XL</p>
+                    </div>
+                </div>
+                <nav aria-label="Product pagination" class="mt-5">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <h3>Rose & Thread</h3>
+                    <p class="opacity-75">Elegant clothing boutique for modern wardrobes, crafted with premium fabrics
+                        and thoughtful silhouettes.</p>
+                    <div class="social-icons"><a href="#" aria-label="Instagram"><i
+                                class="fa-brands fa-instagram"></i></a><a href="#" aria-label="Facebook"><i
+                                class="fa-brands fa-facebook-f"></i></a><a href="#" aria-label="Pinterest"><i
+                                class="fa-brands fa-pinterest-p"></i></a></div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4>Shop</h4><a href="collections.html">Women</a><a href="collections.html">Men</a><a
+                        href="collections.html">Kids</a><a href="collections.html">Accessories</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4>Support</h4><a href="size-guide.html">Size Guide</a><a href="contact.html">Contact</a><a
+                        href="product-details.html">Shipping Info</a><a href="404.html">Returns</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4>Visit Store</h4>
+                    <p class="opacity-75 mb-1">12 Fashion Street, Coimbatore</p>
+                    <p class="opacity-75 mb-1">Mon - Sat: 10 AM - 8 PM</p><a
+                        href="mailto:hello@roseandthread.com">hello@roseandthread.com</a>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <div class="d-flex flex-column flex-md-row justify-content-between">
+                <p class="mb-0 opacity-75">© 2026 Rose & Thread. All rights reserved.</p>
+                <p class="mb-0 opacity-75">Bootstrap 5 HTML Template</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
